@@ -313,7 +313,7 @@ slidingwindowPiplot <- function(mainv, xlabv, ylabv, ylimv=NULL, window.size, st
 }
 
 
-# funciton to define window size as a funciton of the number of snps and number of windows to do, so all populaitons have windows of equal size in bp
+# function to define window size as a funciton of the number of snps and number of windows to do, so all populaitons have windows of equal size in bp
 winsize <- function(nsnp, nwin=100){round(nsnp/nwin/100) * 100}
 steps<- 100
 
